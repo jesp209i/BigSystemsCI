@@ -7,4 +7,4 @@ RUN apt update
 RUN apt install -y dotnet-sdk-3.1
 COPY workflow.sh example/
 WORKDIR /example
-RUN vim workflow.sh -c "set ff=unix" -c ":wq"
+# RUN vim workflow.sh -c "set ff=unix" -c ":wq"
